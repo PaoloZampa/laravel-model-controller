@@ -1,1 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
+
+.my_jumbotron{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-image: url(https://www.themoviedb.org/t/p/original/s6hTk2TlbvaSxNbcLHKsfQoAaoi.jpg);
+}

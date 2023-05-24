@@ -1,15 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-3">Fluid jumbo heading</h1>
-        <p class="lead">Jumbo helper text</p>
-        <hr class="my-2">
-        <p>More info</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-        </p>
+    <div class="my_jumbotron d-flex align-items-center ">
+        <div class="container text-center">
+            <h1 class="display-3 pt-5 text-danger  text-uppercase">Discover our movies</h1>
+            <p class="text-center">
+                <a class="btn btn-danger btn-lg" href="{{ route('movies') }}" role="button">Watch Now!</a>
+            </p>
+        </div>
     </div>
-</div>
 @endsection

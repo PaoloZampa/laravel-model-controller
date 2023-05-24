@@ -11,7 +11,7 @@
                         <div class="card-body">
                             <h4 class="card-title">{{ $movie->title }}</h4>
                             <p class="card-text">{{ $movie->original_title }}</p>
-                            <p>
+                            <p class="card-text">
                                 Vote:
                                 <strong>{{ $movie->vote }}</strong>
                             </p>
