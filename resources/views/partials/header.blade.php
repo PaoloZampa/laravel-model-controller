@@ -1,5 +1,5 @@
-<header class="bg-dark text-center py-3">
-    <img src="{{ Vite::asset('resources/img/logo.png') }}" alt="">
+<header class="bg-dark text-center pt-3">
+    <img class="img-fluid" width="300px" src="{{ Vite::asset('resources/img/logo.png') }}" alt="">
 
     <nav class="nav justify-content-center  ">
         <a class="nav-link text-white active {{ Route::currentRouteName() === 'home' ? 'bg-secondary' : ''}} " href="{{ route('home') }}" aria-current="page">Home</a>
