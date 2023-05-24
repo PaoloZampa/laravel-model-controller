@@ -7,7 +7,7 @@
             @forelse ($moviesList as $movie)
                 <div class="col my-2">
                     <div class="card h-100">
-                        <img class="card-img-top" src="{{ $movie->nationality }}" alt="Title">
+                        <img class="card-img-top" src="{{ $movie->image }}" alt="Title">
                         <div class="card-body">
                             <h4 class="card-title">{{ $movie->title }}</h4>
                             <p class="card-text">{{ $movie->original_title }}</p>
